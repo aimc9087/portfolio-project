@@ -1,9 +1,35 @@
-body {
-    background: rgb(211, 120, 97);
+:root {
+    --branding-color: rgb(211, 120, 97);
+    --background-color: rgb(241, 236, 229);
+    --heading-font-family: quicksand;
 }
 
-h1, p {
+
+body {
+    background: var(--background-color);
+}
+
+
+h1 {
+    font-size: 48px;
+}
+h1, h2 {
     color: white;
-    font-family: quicksand;
+    font-family: var(--heading-font-family);
     text-align: center;
+    padding: 15px;
+}
+
+.hero {
+    background: var(--branding-color);
+    padding: 50px;
+    text-align: center;
+}
+
+.btn-branding {
+    background: white;
+    text-align: center;
+    font-family: var(--heading-font-family);
+    border-radius: 4px;
+
 }
