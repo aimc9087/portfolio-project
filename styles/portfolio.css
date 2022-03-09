@@ -134,10 +134,16 @@ nav a:hover, nav li.active a {
 }
 
 .img-fluid {
-    max-width: 300px;
+    max-width: 400px;
     text-align: center;
 
 }
+
+.img-fluid-tech {
+    max-width: 500px;
+    text-align: center;
+}
+
 
 nav ul {
     padding: 0;
